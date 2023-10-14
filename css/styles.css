@@ -1,3 +1,4 @@
+/* ============== COMMON STYLES ============== */
 .list {
     list-style-type: none;
 }
@@ -10,8 +11,15 @@ button {
     cursor: pointer;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ============== /COMMON STYLES ============== */
+
+/* ============== HEADER STYLES ============== */
+
 .logotype {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -21,7 +29,6 @@ button {
 }
 
 .logotype-span {
-    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -32,10 +39,99 @@ button {
 } 
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
+
+.menu-contacts-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE, #434455);
+}
+
+.menu-contacts-link:hover,
+.menu-contacts-link:focus {
+    color: blue;
+}
+
+/* ============== /HEADER STYLES ============== */
+
+/* ============== HERO STYLES ============== */
+.page-hero {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.name-hero-section {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--WHITE, #FFF);
+}
+
+/* ============== /HERO STYLES ============== */
+
+/* ============== FEATURE SECTION ============== */
+.name-feature {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.description-feature {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE, #434455);
+}
+
+/* ============== /FEATURE SECTION ============== */
+
+/* ============== OUR TEAM SECTION ============== */
+.page-our-team {
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.name-our-team-section {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.name-our-team {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.name-position {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.21em;
+    color: var(--SLATE, #434455);
+}
+
+/* ============== /OUR TEAM SECTION ============== */
+
+/* ============== OUR PORTFOLIO ============== */
+
+/* ============== /OUR PORTFOLIO ============== */
+
