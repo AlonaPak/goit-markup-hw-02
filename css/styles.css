@@ -172,6 +172,9 @@ body {
 /* ============== /OUR PORTFOLIO ============== */
 
 /* ============== FOOTER STYLES ============== */
+.page-footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
 .logotype-footer {
     font-family: Raleway;
     font-size: 18px;
@@ -180,6 +183,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
+}
+.logotype-span-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--CLOUD, #F4F4FD);
 }
 
 .descrption-footer {
