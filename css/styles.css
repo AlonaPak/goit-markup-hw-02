@@ -11,6 +11,7 @@ button {
     cursor: pointer;
     background: #4D5AE5;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -20,7 +21,23 @@ button {
 .button:hover,
 .button:focus {
     background: #4D5AE5;
-    }
+}
+
+
+
+
+/* 
+.order-service-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--WHITE, #FFF);
+    background-color: #4D5AE5;
+}
+ */
+
+
 
 
 body {
@@ -100,18 +117,6 @@ body {
     color: var(--WHITE, #FFF);
 }
 
-.order-service-button {
-    background-color: #404BBF;
-}
-
-.order-service-button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--WHITE, #FFF);
-}
-
 /* ============== /HERO STYLES ============== */
 
 /* ============== FEATURE SECTION ============== */
@@ -138,10 +143,6 @@ body {
     background: var(--CLOUD, #F4F4FD);
 }
 
-.menu-our-team {
-    background-color: #FFFFFF;
-} 
-
 .name-our-team-section {
     text-align: center;
     font-size: 36px;
@@ -159,6 +160,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    background-color: #FFFFFF;
 }
 
 .name-position {
@@ -168,6 +170,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    background-color: #FFFFFF;
 }
 
 /* ============== /OUR TEAM SECTION ============== */
