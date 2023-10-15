@@ -20,25 +20,8 @@ button {
     
 .button:hover,
 .button:focus {
-    background: #4D5AE5;
+    background: #404BBF;
 }
-
-
-
-
-/* 
-.order-service-button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--WHITE, #FFF);
-    background-color: #4D5AE5;
-}
- */
-
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -151,6 +134,10 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.menu-our-team-item {
+    background-color: #FFFFFF;
 }
 
 .name-our-team {
