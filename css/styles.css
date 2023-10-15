@@ -19,7 +19,7 @@ button {
     
 .button:hover,
 .button:focus {
-    background: #404BBF;
+    background: #4D5AE5;
     }
 
 
@@ -138,7 +138,9 @@ body {
     background: var(--CLOUD, #F4F4FD);
 }
 
-/* background-color: #FFFFFF; */
+.menu-our-team {
+    background-color: #FFFFFF;
+} 
 
 .name-our-team-section {
     text-align: center;
